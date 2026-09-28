@@ -13,7 +13,7 @@ int main()
     string model;
     double capacity, capacityf,kkd,energyuseful, energy, power, lose, time;
     int  year, charge; 
-    float k=0.02; //відсоток втрати ємності за рік 
+    const float k=0.02; //відсоток втрати ємності за рік 
     cout << "Модель станції: ";
     cin >> model;
     if (model.length()> 31) {
